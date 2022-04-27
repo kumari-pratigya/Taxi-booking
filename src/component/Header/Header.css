@@ -1,0 +1,22 @@
+.container{
+    max-width: 100%;
+}
+
+.link-dark{
+    color: #ffc61a;
+    text-transform: uppercase;
+    line-height: 20px;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#nav-direction{
+    margin-right: 6rem
+}
+
+.logo{
+    text-align: center;
+}

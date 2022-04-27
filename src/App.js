@@ -1,23 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import {Routes,Route} from 'react-router-dom'
+import Home from './component/Home/Home'
+import Helmet from 'react-helmet'
 
+import Register from './component/signup/Register'
+import Login from './component/Login/Login';
+// import OtpForm from './component/Footer/OtpForm/OtpForm';
+
+const Title="Taxi Booking"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <Helmet>
+    <title> {Title}</title>
+    </Helmet>
+    <Routes>
+         <Route path="/" element={<Home/>}></Route>
+       </Routes>
+       <Routes>
+         <Route path="/company"></Route>
+       </Routes>
+       <Routes>
+         <Route path="/help"></Route>
+       </Routes>
+       <Routes>
+         <Route path="/safety"></Route>
+       </Routes>
+       <Routes>
+         <Route path="/covid"></Route>
+       </Routes>
+       <Routes>
+         <Route path="/global"></Route>
+       </Routes>
+       <Routes>
+         <Route path="/products"></Route>
+       </Routes>
+       <Routes>
+         <Route path="/login" element={<Login/>}></Route>
+       </Routes>
+       <Routes>
+         <Route path="/signup"  element={<Register/>}> </Route>
+       </Routes>
+       
     </div>
   );
 }

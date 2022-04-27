@@ -1,0 +1,83 @@
+.VerifyformHeading{
+    width:600px;
+    justify-content: center;
+    margin-left:700px;
+}
+.VerifyformHeading h2{
+   color:orange;
+}
+.verifyForm{
+    width:500px;
+    justify-content:center;
+}
+@media (max-width: 1399.98px) { 
+    .VerifyformHeading{
+        width:600px;
+        justify-content: center;
+        margin-left:400px;
+    }
+    .VerifyformHeading h2{
+       color:orange;
+    }
+    .verifyForm{
+        width:500px;
+        justify-content:center;
+    }
+}
+@media (max-width: 1199.98px) {
+    .VerifyformHeading{
+        width:600px;
+        justify-content: center;
+        margin-left:300px;
+    }
+    .VerifyformHeading h2{
+       color:orange;
+    }
+    .verifyForm{
+        width:500px;
+        justify-content:center;
+    }
+}
+@media (max-width: 991.98px) { 
+    .VerifyformHeading{
+        width:600px;
+        justify-content: center;
+        margin-left:100px;
+    }
+    .VerifyformHeading h2{
+       color:orange;
+    }
+    .verifyForm{
+        width:500px;
+        justify-content:center;
+    }
+}
+@media (max-width: 767.98px) { 
+    .VerifyformHeading{
+        width:600px;
+        justify-content: center;
+        margin-left:120px;
+    }
+    .VerifyformHeading h2{
+       color:orange;
+    }
+    .verifyForm{
+        width:500px;
+        justify-content:center;
+    }
+}
+@media (max-width: 575.98px) { 
+    .VerifyformHeading{
+        width:200px;
+        justify-content: center;
+        margin-left:50px;
+        margin-right:50px;
+    }
+    .VerifyformHeading h2{
+       color:orange;
+    }
+    .verifyForm{
+        width:200px;
+        justify-content:center;
+    }
+}

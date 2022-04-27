@@ -1,0 +1,205 @@
+body{
+    background-color:  #f8f8f9;
+}
+
+.FormContainer1{
+   width: 500px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.FormContainer img{
+    margin-top: 10px;
+}
+.FormContainer h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.forminput{
+    height:50px;
+    border: none;
+}
+.formlabel1{
+    float: left;
+    font-size:20px;
+}
+.select1{
+   width: 480px;
+   height: 50px;
+   border: none;
+}
+.submitbutton{
+    margin-top: 40px;
+    margin-left:-2px;
+}
+@media  (max-width: 1399.98px) {
+    .FormContainer1{
+        width: 500px;
+         margin-top: 30px;
+         text-align: center;
+         
+     }
+     .FormContainer img{
+        margin-top: 10px;
+    }
+    .FormContainer h3{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .forminput{
+        height:50px;
+        border: none;
+    }
+    .formlabel1{
+        float: left;
+        font-size:20px;
+    }
+    .select1{
+       width: 480px;
+       height: 50px;
+       border: none;
+    }
+    .submitbutton{
+        margin-top: 40px;
+        margin-left:-2px;
+    }
+}
+@media only screen and (max-width:1199.98px) {
+    .FormContainer1{
+        width: 500px;
+         margin-top: 30px;
+         text-align: center;
+         
+     }
+     .FormContainer img{
+         margin-top: 10px;
+     }
+     .FormContainer h3{
+         font-size: 30px;
+         margin-top: 20px;
+         margin-bottom: 40px;
+     }
+     .forminput{
+         height:50px;
+         border: none;
+     }
+     .formlabel1{
+         float: left;
+         font: size 20px;
+     }
+     .select1{
+        width: 480px;
+        height: 50px;
+        border: none;
+     }
+     .submitbutton{
+         margin-top: 40px;
+         margin-left:-2px;
+     }
+}
+@media (max-width: 991.98px) {
+    .FormContainer1{
+        width: 500px;
+         margin-top: 30px;
+         text-align: center;
+         
+     }
+     .FormContainer img{
+         margin-top: 10px;
+     }
+     .FormContainer h3{
+         font-size: 30px;
+         margin-top: 20px;
+         margin-bottom: 40px;
+     }
+     .forminput{
+         height:50px;
+         border: none;
+     }
+     .formlabel1{
+         float: left;
+         font-size:20px;
+     }
+     .select1{
+        width: 480px;
+        height: 50px;
+        border: none;
+     }
+     .submitbutton{
+         margin-top: 40px;
+         margin-left:-2px;
+     }
+}
+@media (max-width: 767.98px) {
+    .FormContainer1{
+        width: 500px;
+         margin-top: 30px;
+         text-align: center;
+         
+     }
+     .FormContainer img{
+         margin-top: 10px;
+     }
+     .FormContainer h3{
+         font-size: 30px;
+         margin-top: 20px;
+         margin-bottom: 40px;
+     }
+     .forminput{
+         height:50px;
+         border: none;
+     }
+     .formlabel1{
+         float: left;
+         font-size: 20px;
+     }
+     .select1{
+        width: 480px;
+        height: 50px;
+        border: none;
+     }
+     .submitbutton{
+         margin-top: 40px;
+         margin-left:-2px;
+     }
+}
+@media (max-width:575.98px) {
+    .FormContainer1{
+        width: auto;
+        height: auto;
+         margin-top: 30px;
+         text-align: center;
+         
+     }
+     .FormContainer img{
+         margin-top: 10px;
+     }
+     .FormContainer h3{
+         font-size: 30px;
+         margin-top: 20px;
+         margin-bottom: 40px;
+     }
+     .forminput{
+         height:50px;
+         border: none;
+     }
+     .formlabel1{
+         float: left;
+         font-size:18px;
+     }
+     .select1{
+        width: 480px;
+        height: 50px;
+        border: none;
+     }
+     .submitbutton{
+         margin-top: 40px;
+         margin-left:-2px;
+     }
+}
+
+
+
+ 

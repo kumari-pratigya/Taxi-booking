@@ -1,0 +1,302 @@
+.navbar{
+    background-color:black;
+    color: white;
+    width: auto;
+    
+}
+#navbarScrollingDropdown{
+    color: white;
+}
+
+.dropdown{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+ .dropdown:hover{
+    background-color:rgb(59, 56, 56) ;
+    border-radius: 20px; 
+    color: white;
+}
+.dropdown.active {
+    background-color:rgb(225,198,26);
+}
+ .safety {
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    
+    border: none;
+    padding:6px 20px;
+    text-decoration:none;
+}
+  .safety:hover{
+   background-color:rgb(59, 56, 56) ;
+   color: white;
+   border-radius: 20px;
+}
+ .Help{
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+    border-radius: 20px;
+    border: none;
+    
+    padding:6px 20px;
+}
+  .Help:hover{
+    background-color:rgb(59, 56, 56) ;
+    border-radius: 20px; 
+    /* padding: 0px 70px ; */
+    /* width:70px; */
+    /* padding-top: 10px; */
+    color: white;
+ }
+.covid {
+    color: white;
+    font-size: 20px;
+    
+    text-decoration:none;
+    border: none;
+    border-radius: 20px;
+    padding:6px 20px;
+}
+ .covid:hover {
+   color: white;
+   background-color:rgb(59, 56, 56) ;
+   border-radius: 20px;
+
+}
+.navbrand img{
+    width:90px;
+    height: 70px;
+    margin-left: 20px;
+}
+.global{
+    border: none;
+    border-radius: 20px;
+    /* margin-right: 25px; */
+    padding: 6px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+ .global:hover{
+    background-color:rgb(59, 56, 56);
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+.products{
+    background-color: black;
+    border: none;
+    margin-right: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 6px 20px;
+    font-size: 20px;
+}
+.products:hover{
+    background-color:rgb(59, 56, 56);
+    border-radius: 20px;
+    color: white;
+}
+.products.active {
+    background-color:rgb(225,198,26);
+    color: white;
+}
+.Login{
+    background-color: black;
+    padding: 6px 20px;
+    border: none;
+    margin-right: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.Login:hover{
+    background-color:rgb(59, 56, 56);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+.Login.active {
+    background-color:rgb(225,198,26);
+    color: white;
+}
+.signup{
+    background-color:white;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 6px 20px;
+    font-size: 20px;
+}
+ .signup:hover{
+    background-color:rgb(59, 56, 56);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+.signup.active {
+    background-color:rgb(225,198,26);
+    color: white;
+}
+@media (max-width:575.98px) {
+    .navbar{
+        background-color:black;
+        color: white;
+        width: auto;
+        
+    }
+    #navbarScrollingDropdown{
+        color: white;
+    }
+    
+    .dropdown{
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 12px;
+        color: white;
+    }
+     .dropdown:hover{
+        background-color:rgb(59, 56, 56) ;
+        border-radius: 20px; 
+        color: white;
+    }
+    .dropdown.active {
+        background-color:rgb(225,198,26);
+    }
+     .safety {
+        color: white;
+        font-size:12px;
+        border-radius: 20px;
+        
+        border: none;
+        padding:6px 10px;
+        text-decoration:none;
+    }
+      .safety:hover{
+       background-color:rgb(59, 56, 56) ;
+       color: white;
+       border-radius: 20px;
+    }
+     .Help{
+        color: white;
+        font-size:12px;
+        text-decoration:none;
+        border-radius: 20px;
+        border: none;
+        
+        padding:6px 20px;
+    }
+      .Help:hover{
+        background-color:rgb(59, 56, 56) ;
+        border-radius: 20px; 
+        /* padding: 0px 70px ; */
+        /* width:70px; */
+        /* padding-top: 10px; */
+        color: white;
+     }
+    .covid {
+        color: white;
+        font-size:12px;
+        text-decoration:none;
+        border: none;
+        border-radius: 20px;
+        padding:6px 10px;
+    }
+     .covid:hover {
+       color: white;
+       background-color:rgb(59, 56, 56) ;
+       border-radius: 20px;
+    
+    }
+    .navbrand img{
+        width:90px;
+        height: 70px;
+        margin-left: 20px;
+    }
+    .global{
+        border: none;
+        border-radius: 20px;
+        /* margin-right: 25px; */
+        padding: 6px 10px;
+        color: white;
+        text-decoration: none;
+        font-size:12px;
+    }
+     .global:hover{
+        background-color:rgb(59, 56, 56);
+        border-radius: 20px;
+        cursor: pointer;
+        color: white;
+    }
+    .products{
+        background-color: black;
+        border: none;
+        margin-right:5px;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+        padding: 6px 20px;
+        font-size:12px;
+    }
+    .products:hover{
+        background-color:rgb(59, 56, 56);
+        border-radius: 20px;
+        color: white;
+    }
+    .products.active {
+        background-color:rgb(225,198,26);
+        color: white;
+    }
+    .Login{
+        background-color: black;
+        padding: 6px 10px;
+        border: none;
+        margin-right: 5px;
+        border-radius: 20px;
+        font-size:12px;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+    }
+    .Login:hover{
+        background-color:rgb(59, 56, 56);
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    .Login.active {
+        background-color:rgb(225,198,26);
+        color: white;
+    }
+    .signup{
+        background-color:white;
+        border-radius: 20px;
+        color: black;
+        border: none;
+        margin-right:5px;
+        text-decoration: none;
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+     .signup:hover{
+        background-color:rgb(59, 56, 56);
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    .signup.active {
+        background-color:rgb(225,198,26);
+        color: white;
+    }
+}
+
